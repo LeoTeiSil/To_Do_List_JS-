@@ -59,7 +59,7 @@ const UpdateToDo = (text) => {
             ToDoTitle.innerText = text;
         }
     })
-};
+}
 
 const searchToDos = (term) => {
     const ToDos = document.querySelectorAll(".ToDo");
